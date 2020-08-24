@@ -1,0 +1,36 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "fallenst:starfragmentingot"
+    },
+    "2": {
+      "item": "fallenst:teir1component"
+    },
+    "3": {
+      "item": "fallenst:starfragmentingot"
+    },
+    "4": {
+      "item": "fallenst:teir1component"
+    },
+    "5": {
+      "item": "fallenst:starfragmentingot"
+    },
+    "6": {
+      "item": "fallenst:teir1component"
+    },
+    "7": {
+      "item": "fallenst:starfragmentingot"
+    }
+  },
+  "result": {
+    "item": "fallenst:starwand1",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+tile.sunore.name=Sunstar Ore
+tile.skytable.name=Sky Table
+tile.starore.name=Star Ore
+tile.sunfragmentblock.name=Sun Fragment Block
+tile.starfragmentblock.name=Star Fragment Block
+
+item.swordoftruesun.name=Sword of the Sun
+item.sunsteelsword.name=Sunsteel Sword
+item.sunessence.name=Sun Essence
+item.blockelement.name=Block Element
+tile.startable.name=Star Table (Tier 1)
+item.starfragment.name=Star Fragment
+item.sunglasseshelmet.name=Sun glasses
+item.starfragmentingot.name=Star Fragment Ingot
+item.suningot.name=Sun Ingot
+item.teir1component.name=Star Component (Tier 1)
+item.starwand1.name=Star Wand (Tier 1)
+
+item.moonlightsonata_record.name=Moon Disc
+item.record.moondisc.desc=Moonlight Sonata - Beethoven
+
+itemGroup.tabfallenstars=Fallen Stars
+
+entity.starskipper.name=Star Skipper
+
+advancements.nothowitworks.title=That's not how that works!
+advancements.nothowitworks.descr=Do this at night time

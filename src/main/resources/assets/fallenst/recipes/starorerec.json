@@ -1,0 +1,46 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fallenst:starfragment"
+    },
+    "1": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "2": {
+      "item": "fallenst:starfragment"
+    },
+    "3": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "4": {
+      "item": "fallenst:starfragment"
+    },
+    "5": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "6": {
+      "item": "fallenst:starfragment"
+    },
+    "7": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "8": {
+      "item": "fallenst:starfragment"
+    }
+  },
+  "result": {
+    "item": "fallenst:starore",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "1": {
+      "item": "fallenst:sunessence"
+    },
+    "2": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fallenst:sunglasseshelmet",
+    "count": 1
+  }
+}

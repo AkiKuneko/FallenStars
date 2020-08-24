@@ -1,0 +1,8 @@
+{
+  "moonlightsonata": {
+    "sounds":[{
+      "name": "fallenst:moonlightsonata",
+      "stream": true
+    }]
+  }
+}
