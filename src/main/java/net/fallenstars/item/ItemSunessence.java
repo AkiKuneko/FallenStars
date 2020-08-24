@@ -22,7 +22,7 @@ import java.util.List;
 
 @ElementsFallenStars.ModElement.Tag
 public class ItemSunessence extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:sunessence")
+	@GameRegistry.ObjectHolder("fallenst:sunfragment")
 	public static final Item block = null;
 	public ItemSunessence(ElementsFallenStars instance) {
 		super(instance, 21);
@@ -42,8 +42,8 @@ public class ItemSunessence extends ElementsFallenStars.ModElement {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("sunessence");
-			setRegistryName("sunessence");
+			setUnlocalizedName("sunfragment");
+			setRegistryName("sunfragment");
 			setCreativeTab(TabFallenStars.tab);
 		}
 

@@ -4,9 +4,9 @@ tile.starore.name=Star Ore
 tile.sunfragmentblock.name=Sun Fragment Block
 tile.starfragmentblock.name=Star Fragment Block
 
-item.swordoftruesun.name=Sword of the Sun
+item.swordofthesun.name=Sword of the Sun
 item.sunsteelsword.name=Sunsteel Sword
-item.sunessence.name=Sun Essence
+item.sunfragment.name=Sun Essence
 item.blockelement.name=Block Element
 tile.startable.name=Star Table (Tier 1)
 item.starfragment.name=Star Fragment

@@ -32,7 +32,7 @@ import com.google.common.collect.Multimap;
 
 @ElementsFallenStars.ModElement.Tag
 public class ItemSwordoftruesun extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:swordoftruesun")
+	@GameRegistry.ObjectHolder("fallenst:swordofthesun")
 	public static final Item block = null;
 	public ItemSwordoftruesun(ElementsFallenStars instance) {
 		super(instance, 27);
@@ -40,7 +40,7 @@ public class ItemSwordoftruesun extends ElementsFallenStars.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SWORDOFTRUESUN", 1, 2000, 4f, 5f, 10)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SWORDOFTHESUN", 1, 2000, 4f, 5f, 10)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -73,7 +73,7 @@ public class ItemSwordoftruesun extends ElementsFallenStars.ModElement {
 				}
 				return retval;
 			}
-		}.setUnlocalizedName("swordoftruesun").setRegistryName("swordoftruesun").setCreativeTab(TabFallenStars.tab));
+		}.setUnlocalizedName("swordofthesun").setRegistryName("swordofthesun").setCreativeTab(TabFallenStars.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
