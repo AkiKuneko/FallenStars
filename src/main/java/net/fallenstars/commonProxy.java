@@ -1,6 +1,7 @@
 package net.fallenstars;
 
 import net.fallenstars.entity.EntityStarSkipper;
+import net.fallenstars.gen.WorldGenCustomeStructures;
 import net.fallenstars.init.EntityInit;
 import net.fallenstars.init.musicInit;
 import net.fallenstars.item.ItemMoonRecord;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -28,8 +30,8 @@ public class commonProxy {
     }
 
     public void preInit(FMLPreInitializationEvent event){
+        GameRegistry.registerWorldGenerator(new WorldGenCustomeStructures(), 0);
         EntityInit.registerEntites();
-
     }
     public void init(FMLInitializationEvent event){
         Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
