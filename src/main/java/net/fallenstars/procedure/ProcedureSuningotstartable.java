@@ -7,7 +7,7 @@ import net.minecraft.init.Items;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.Entity;
 
-import net.fallenstars.item.ItemSwordoftruesun;
+import net.fallenstars.item.ItemSwordofthesun;
 import net.fallenstars.item.ItemSunsteelSword;
 import net.fallenstars.item.ItemSuningot;
 import net.fallenstars.item.ItemSunessence;
@@ -148,7 +148,7 @@ public class ProcedureSuningotstartable extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (1))).getItem() == new ItemStack(ItemSunsteelSword.block, (int) (1)).getItem()) && ((new Object() {
+		}.getItemStack((int) (1))).getItem() == new ItemStack(ItemSwordofthesun.block, (int) (1)).getItem()) && ((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;
@@ -204,7 +204,7 @@ public class ProcedureSuningotstartable extends ElementsFallenStars.ModElement {
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemSwordoftruesun.block, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemSwordofthesun.block, (int) (1));
 						_setstack.setCount(1);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
