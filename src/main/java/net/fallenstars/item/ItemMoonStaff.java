@@ -57,7 +57,7 @@ public class ItemMoonStaff extends ElementsFallenStars.ModElement {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(EntityArrowCustom.class, renderManager -> {
-			return new RenderSnowball(renderManager, new ItemStack(ItemStarfragment.block, (int) (1)).getItem(),
+			return new RenderSnowball(renderManager, new ItemStack(ItemSunsteelSword.block, (int) (1)).getItem(),
 					Minecraft.getMinecraft().getRenderItem());
 		});
 	}
@@ -82,8 +82,8 @@ public class ItemMoonStaff extends ElementsFallenStars.ModElement {
 				entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 				entityarrow.setSilent(true);
 				entityarrow.setIsCritical(false);
-				entityarrow.setDamage(5);
-				entityarrow.setKnockbackStrength(5);
+				entityarrow.setDamage(4);
+				entityarrow.setKnockbackStrength(1);
 				itemstack.damageItem(1, entity);
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
