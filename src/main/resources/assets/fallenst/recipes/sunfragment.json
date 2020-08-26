@@ -1,0 +1,14 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "fallenst:sunfragmentblock"
+    }
+  ],
+  "result": {
+    "item": "fallenst:sunfragment",
+    "count": 4
+  }
+}

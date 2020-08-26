@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "fallenst:starfragment"
+      "item": "fallenst:sunfragment"
     },
     "1": {
-      "item": "fallenst:starfragment"
+      "item": "fallenst:sunfragment"
     },
     "2": {
-      "item": "fallenst:starfragment"
+      "item": "fallenst:sunfragment"
     },
     "3": {
-      "item": "fallenst:starfragment"
+      "item": "fallenst:sunfragment"
     }
   },
   "result": {
-    "item": "fallenst:starfragmentblock",
+    "item": "fallenst:sunfragmentblock",
     "count": 1
   }
 }

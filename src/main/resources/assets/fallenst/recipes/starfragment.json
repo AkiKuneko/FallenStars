@@ -1,0 +1,14 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "fallenst:starfragmentblock"
+    }
+  ],
+  "result": {
+    "item": "fallenst:starfragment",
+    "count": 4
+  }
+}

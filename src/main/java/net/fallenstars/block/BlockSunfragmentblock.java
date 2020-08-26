@@ -59,7 +59,7 @@ public class BlockSunfragmentblock extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemSunessence.block, (int) (2)));
+			drops.add(new ItemStack(BlockSunfragmentblock.block, (int) (1)));
 		}
 	}
 }
