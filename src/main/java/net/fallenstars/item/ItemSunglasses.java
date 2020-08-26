@@ -1,7 +1,6 @@
 
-package net.fallenstars.item;
+package net.mcreator.rb.item;
 
-import net.fallenstars.creativetab.TabFallenStars;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -53,7 +52,7 @@ public class ItemSunglasses extends ElementsFallenStars.ModElement {
 					ProcedureSunglassesHelmetTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("sunglasseshelmet").setRegistryName("sunglasseshelmet").setCreativeTab(TabFallenStars.tab));
+		}.setUnlocalizedName("sunglasseshelmet").setRegistryName("sunglasseshelmet").setCreativeTab(CreativeTabs.COMBAT));
 	}
 
 	@SideOnly(Side.CLIENT)
