@@ -58,21 +58,6 @@ public class ItemSwordofthesun extends ElementsFallenStars.ModElement {
 				ret.put("sword", 1);
 				return ret.keySet();
 			}
-
-			@Override
-			public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
-				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
-				ItemStack itemstack = retval.getResult();
-				int x = (int) entity.posX;
-				int y = (int) entity.posY;
-				int z = (int) entity.posZ;
-				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-					$_dependencies.put("itemstack", itemstack);
-					ProcedureSwordoftruesunRightClickedInAir.executeProcedure($_dependencies);
-				}
-				return retval;
-			}
 		}.setUnlocalizedName("swordofthesun").setRegistryName("swordofthesun").setCreativeTab(TabFallenStars.tab));
 	}
 
