@@ -31,10 +31,10 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemSwordoftruesun extends ElementsFallenStars.ModElement {
+public class ItemSwordofthesun extends ElementsFallenStars.ModElement {
 	@GameRegistry.ObjectHolder("fallenst:swordofthesun")
 	public static final Item block = null;
-	public ItemSwordoftruesun(ElementsFallenStars instance) {
+	public ItemSwordofthesun(ElementsFallenStars instance) {
 		super(instance, 27);
 	}
 
