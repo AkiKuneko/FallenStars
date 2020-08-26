@@ -23,8 +23,7 @@ public class EntityStarSkipper extends EntityMob {
 	public EntityStarSkipper(World worldIn) {
 		super(worldIn);
 		this.isImmuneToFire = true;
-		this.setSize(0.8F, 3.1F);
-		this.setSize(0.8F, 3.1F);
+		this.setSize(0.9F, 3.1F);
 	}
 
 	protected void initEntityAI() {
@@ -42,6 +41,7 @@ public class EntityStarSkipper extends EntityMob {
 	protected void applyEntityAttributes() {
 		super.applyEntityAttributes();
 		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
+		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
 	}
 
 	@Override
@@ -95,6 +95,6 @@ public class EntityStarSkipper extends EntityMob {
 
 	@Override
 	public float getEyeHeight() {
-		return 2.65F;
+		return 3.0F;
 	}
 }
