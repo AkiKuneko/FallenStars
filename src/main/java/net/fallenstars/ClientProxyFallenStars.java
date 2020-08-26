@@ -18,7 +18,6 @@ public class ClientProxyFallenStars extends commonProxy {
 		ModelLoader.setCustomModelResourceLocation(item,meta,new ModelResourceLocation(item.getRegistryName(), id));
 	}
 	@Override
-
 	public void preInit(FMLPreInitializationEvent event) {
 		super.preInit(event);
 		RenderHandler.registerEntityRenders();
