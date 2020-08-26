@@ -31,13 +31,14 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemStaff extends ElementsFallenStars.ModElement {
+public class ItemMoonStaff extends ElementsFallenStars.ModElement {
 	@GameRegistry.ObjectHolder("fallenst:staff")
 	public static final Item block = null;
 	public static final int ENTITYID = 3;
-	public ItemStaff(ElementsFallenStars instances) {
+	public ItemMoonStaff(ElementsFallenStars instances) {
 		super(instances,42);
 	}
+
 
 	@Override
 	public void initElements() {
@@ -49,7 +50,7 @@ public class ItemStaff extends ElementsFallenStars.ModElement {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:staff", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:moonstaff", "inventory"));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -65,8 +66,8 @@ public class ItemStaff extends ElementsFallenStars.ModElement {
 			super();
 			setMaxDamage(2000);
 			setFull3D();
-			setUnlocalizedName("staff");
-			setRegistryName("staff");
+			setUnlocalizedName("moonstaff");
+			setRegistryName("moonstaff");
 			maxStackSize = 1;
 			setCreativeTab(TabFallenStars.tab);
 		}
