@@ -32,7 +32,7 @@ import net.minecraft.client.Minecraft;
 
 @ElementsFallenStars.ModElement.Tag
 public class ItemMoonStaff extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:staff")
+	@GameRegistry.ObjectHolder("fallenst:moonstaff")
 	public static final Item block = null;
 	public static final int ENTITYID = 3;
 	public ItemMoonStaff(ElementsFallenStars instances) {
