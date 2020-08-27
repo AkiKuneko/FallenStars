@@ -57,7 +57,7 @@ public class ItemMoonStaff extends ElementsFallenStars.ModElement {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(EntityArrowCustom.class, renderManager -> {
-			return new RenderSnowball(renderManager, new ItemStack(ItemSunsteelSword.block, (int) (1)).getItem(),
+			return new RenderSnowball(renderManager, new ItemStack(ItemMoonFragment.block, (int) (1)).getItem(),
 					Minecraft.getMinecraft().getRenderItem());
 		});
 	}
