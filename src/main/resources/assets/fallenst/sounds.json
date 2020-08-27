@@ -4,5 +4,11 @@
       "name": "fallenst:moonlightsonata",
       "stream": true
     }]
+  },
+  "closetothesun": {
+    "sounds":[{
+      "name": "fallenst:closetothesun",
+      "stream": true
+    }]
   }
 }
