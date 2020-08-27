@@ -1,0 +1,14 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "fallenst:moonfragmentblock"
+    }
+  ],
+  "result": {
+    "item": "fallenst:moonfragment",
+    "count": 4
+  }
+}
