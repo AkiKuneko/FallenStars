@@ -2,6 +2,7 @@
 package net.fallenstars.block;
 
 import net.fallenstars.creativetab.TabFallenStars;
+import net.fallenstars.procedure.ProcedureStarfragmentblockOnBlockRightClickednight;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -73,9 +74,19 @@ public class BlockStarfragmentblock extends ElementsFallenStars.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				ProcedureStarfragmentblockOnBlockRightClicked.executeProcedure($_dependencies);
-				return true;
 			}
-			else return false;
+			if(!world.isDaytime())
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureStarfragmentblockOnBlockRightClickednight.executeProcedure($_dependencies);
+			}
+
+			return true;
 		}
 	}
 }

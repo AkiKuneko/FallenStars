@@ -3,12 +3,13 @@ tile.skytable.name=Sky Table
 tile.starore.name=Star Ore
 tile.sunfragmentblock.name=Sun Fragment Block
 tile.starfragmentblock.name=Star Fragment Block
+tile.startable.name=Star Table (Tier 1)
+tile.moonfragmentblock.name=Moon Fragment Block
 
 item.swordofthesun.name=Sword of the Sun
 item.sunsteelsword.name=Sunsteel Sword
 item.sunfragment.name=Sun Fragment
 item.blockelement.name=Block Element
-tile.startable.name=Star Table (Tier 1)
 item.starfragment.name=Star Fragment
 item.sunglasseshelmet.name=Sun glasses
 item.starfragmentingot.name=Star Fragment Ingot
