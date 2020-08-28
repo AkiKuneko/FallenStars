@@ -87,7 +87,7 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemStarfragment.block, (int) (3+RANDOM.nextInt(6))));
+			drops.add(new ItemStack(ItemStarfragment.block, (int) (3+RANDOM.nextInt(6)+(fortune* RANDOM.nextInt(3)))));
 		}
 	}
 }
