@@ -69,20 +69,7 @@ public class BlockSunore extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemSunessence.block, (int) (1)));
-		}
-
-		@Override
-		public void onEntityCollidedWithBlock(World world, BlockPos pos, IBlockState state, Entity entity) {
-			super.onEntityCollidedWithBlock(world, pos, state, entity);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureSunoreEntityCollidesInTheBlock.executeProcedure($_dependencies);
-			}
+			drops.add(new ItemStack(ItemSunessence.block, (int) (1+RANDOM.nextInt(4))));
 		}
 	}
 }

@@ -1,0 +1,26 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "fallenst:moonstone"
+    },
+    "1": {
+      "item": "fallenst:moonstone"
+    },
+    "2": {
+      "item": "fallenst:moonstone"
+    },
+    "3": {
+      "item": "fallenst:moonstone"
+    }
+  },
+  "result": {
+    "item": "fallenst:moonstonebrick",
+    "count": 4
+  }
+}

@@ -5,6 +5,8 @@ tile.sunfragmentblock.name=Sun Fragment Block
 tile.starfragmentblock.name=Star Fragment Block
 tile.startable.name=Star Table (Tier 1)
 tile.moonfragmentblock.name=Moon Fragment Block
+tile.moonstone.name=Moon Stone
+tile.moonstonebrick.name=Moon Stone Bricks
 
 item.swordofthesun.name=Sword of the Sun
 item.sunsteelsword.name=Sunsteel Sword
