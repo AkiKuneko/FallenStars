@@ -21,16 +21,16 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @ElementsFallenStars.ModElement.Tag
-public class BlockMoonStone extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:moonstone")
+public class BlockSunStone extends ElementsFallenStars.ModElement {
+	@GameRegistry.ObjectHolder("fallenst:sunstone")
 	public static final Block block = null;
-	public BlockMoonStone(ElementsFallenStars instance) {
+	public BlockSunStone(ElementsFallenStars instance) {
 		super(instance, 37);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("moonstone"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("sunstone"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -38,12 +38,12 @@ public class BlockMoonStone extends ElementsFallenStars.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("fallenst:moonstone", "inventory"));
+				new ModelResourceLocation("fallenst:sunstone", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("moonstone");
+			setUnlocalizedName("sunstone");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 1);
 			setHardness(1F);
@@ -55,7 +55,7 @@ public class BlockMoonStone extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(BlockMoonStone.block, (int) (1)));
+			drops.add(new ItemStack(BlockSunStone.block, (int) (1)));
 		}
 	}
 }

@@ -42,7 +42,7 @@ public class BlockMoonStonebrick extends ElementsFallenStars.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.IRON);
+			super(Material.ROCK);
 			setUnlocalizedName("moonstonebrick");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 1);

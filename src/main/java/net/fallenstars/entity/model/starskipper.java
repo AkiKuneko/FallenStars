@@ -64,11 +64,11 @@ public class starskipper extends ModelBase {
 	@Override
 	public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn)
 	{
-		this.LeftLeg.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f)*1.4f*limbSwingAmount;
-		this.RightLeg.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f+(float)Math.PI)*1.4f*limbSwingAmount;
+		this.LeftLeg.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f)*0.9f*limbSwingAmount;
+		this.RightLeg.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f+(float)Math.PI)*0.9f*limbSwingAmount;
 
-		this.LeftArm.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f)*0.7f*limbSwingAmount;
-		this.RightArm.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f+(float)Math.PI)*0.7f*limbSwingAmount;
+		this.LeftArm.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f)*0.6f*limbSwingAmount;
+		this.RightArm.rotateAngleX= MathHelper.cos(limbSwing * 0.6662f+(float)Math.PI)*0.6f*limbSwingAmount;
 
 		this.Head.rotateAngleY = netHeadYaw * 0.017453292f;
 		this.Head.rotateAngleX = headPitch * 0.017453292f;
