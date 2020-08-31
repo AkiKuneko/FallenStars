@@ -37,7 +37,6 @@ public class commonProxy {
     public void init(FMLInitializationEvent event){
         Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
         EntityRegistry.addSpawn(EntityStarSkipper.class, 20, 2, 6, EnumCreatureType.MONSTER, spawnBiomes);
-        EntityRegistry.addSpawn(EntityMoonHarvester.class, 20, 2, 6, EnumCreatureType.MONSTER, spawnBiomes);
 
     }
     public void postInit(FMLPostInitializationEvent event){

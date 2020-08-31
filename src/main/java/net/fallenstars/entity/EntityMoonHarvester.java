@@ -40,8 +40,10 @@ public class EntityMoonHarvester extends EntityMob {
     @Override
     protected void applyEntityAttributes() {
         super.applyEntityAttributes();
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(7.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(9.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.5D);
+        this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(64.0D);
     }
 
     @Override
@@ -69,12 +71,12 @@ public class EntityMoonHarvester extends EntityMob {
     }
 
     public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-        return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.blaze.hurt"));
+        return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.illusioner.hurt"));
     }
 
 
     public net.minecraft.util.SoundEvent getDeathSound() {
-        return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.fire.extinguish"));
+        return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.glass.break"));
     }
 
     protected float getSoundVolume() {
@@ -82,7 +84,7 @@ public class EntityMoonHarvester extends EntityMob {
     }
 
     protected ResourceLocation getLootTable() {
-        return LootTableHandler.STARSKIPER;
+        return LootTableHandler.MOONHARVESTER;
     }
 
     @Override

@@ -9,6 +9,7 @@ import net.minecraft.entity.monster.*;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
@@ -24,6 +25,7 @@ public class EntityStarSkipper extends EntityMob {
 		super(worldIn);
 		this.isImmuneToFire = true;
 		this.setSize(0.9F, 3.1F);
+		this.setPathPriority(PathNodeType.WATER, -1.0F);
 	}
 
 	protected void initEntityAI() {
