@@ -58,6 +58,8 @@ public class FallenStars {
 	public static final String VERSION = "0.0.1";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("fallenst:a");
 	public static final int ENTITY_STARSK = 120;
+	public static final int ENTITY_MOONHVS = 121;
+
 	@SidedProxy(clientSide = "net.fallenstars.ClientProxyFallenStars", serverSide = "net.fallenstars.commonProxy")
 	public static commonProxy proxy;
 	@Mod.Instance(MODID)

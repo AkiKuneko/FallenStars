@@ -32,6 +32,7 @@ item.record.moondisc.desc=Moonlight Sonata - Beethoven
 itemGroup.tabfallenstars=Fallen Stars
 
 entity.starskipper.name=Star Skipper
+entity.moonharvester.name=Moon Harvester
 
 advancements.nothowitworks.title=That's not how that works!
 advancements.nothowitworks.descr=Do this at night time
