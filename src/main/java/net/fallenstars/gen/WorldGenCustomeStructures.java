@@ -17,15 +17,19 @@ import java.util.Random;
 public class WorldGenCustomeStructures implements IWorldGenerator
 {
     public static final WorldGenStructure SUNTEMPLE = new WorldGenStructure("suntemple");
+    public static final WorldGenStructure MOONTEMPLE = new WorldGenStructure("moontemple");
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
         switch(world.provider.getDimension()){
+            case 2:
+                break;
             case 1:
                 break;
             case 0:
-                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,500, Blocks.GRASS);
+                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,1000, Blocks.GRASS);
+                generateStructure(MOONTEMPLE,world,random,chunkX,chunkZ,1000, Blocks.GRASS);
                 break;
             case -1:
                 break;
