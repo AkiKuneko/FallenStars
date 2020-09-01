@@ -13,10 +13,10 @@ import net.minecraft.world.gen.structure.template.TemplateManager;
 
 import java.util.Random;
 
-public class WorldGenStructure extends WorldGenerator implements IStructure
+public class WorldGenMoonTemple extends WorldGenerator implements IStructure
 {
     public static String structureName;
-    public WorldGenStructure(String name)
+    public WorldGenMoonTemple(String name)
     {
         this.structureName = name;
 

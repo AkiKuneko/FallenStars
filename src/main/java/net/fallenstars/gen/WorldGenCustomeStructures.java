@@ -1,11 +1,11 @@
 package net.fallenstars.gen;
 
+import net.fallenstars.gen.generators.WorldGenMoonTemple;
+import net.fallenstars.gen.generators.WorldGenSunTemple;
 import net.minecraft.block.Block;
-import net.fallenstars.gen.generators.WorldGenStructure;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldType;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
@@ -16,8 +16,8 @@ import java.util.Random;
 
 public class WorldGenCustomeStructures implements IWorldGenerator
 {
-    public static final WorldGenStructure SUNTEMPLE = new WorldGenStructure("suntemple");
-    public static final WorldGenStructure MOONTEMPLE = new WorldGenStructure("moontemple");
+    public static final WorldGenSunTemple SUNTEMPLE = new WorldGenSunTemple("suntemple");
+    public static final WorldGenMoonTemple MOONTEMPLE = new WorldGenMoonTemple("moontemple");
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
@@ -28,8 +28,8 @@ public class WorldGenCustomeStructures implements IWorldGenerator
             case 1:
                 break;
             case 0:
-                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,1000, Blocks.GRASS);
-                generateStructure(MOONTEMPLE,world,random,chunkX,chunkZ,1000, Blocks.GRASS);
+                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,1250, Blocks.GRASS);
+                generateStructure(MOONTEMPLE,world,random,chunkX,chunkZ,1250, Blocks.GRASS);
                 break;
             case -1:
                 break;
