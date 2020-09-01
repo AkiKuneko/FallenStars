@@ -24,7 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.fallenstars.procedure.ProcedureSuningotstartable;
+import net.fallenstars.procedure.ProcedureStarTableRecipes;
 import net.fallenstars.FallenStars;
 import net.fallenstars.ElementsFallenStars;
 
@@ -411,7 +411,7 @@ public class GuiStartablegui extends ElementsFallenStars.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-				ProcedureSuningotstartable.executeProcedure($_dependencies);
+				ProcedureStarTableRecipes.executeProcedure($_dependencies);
 			}
 		}
 	}
