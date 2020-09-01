@@ -82,7 +82,7 @@ public class EntitySolarInvader extends EntityMob {
     }
 
     protected ResourceLocation getLootTable() {
-        return LootTableHandler.MOONHARVESTER;
+        return LootTableHandler.SOLARINVADER;
     }
 
     @Override
