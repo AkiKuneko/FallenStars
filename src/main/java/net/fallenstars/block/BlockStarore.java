@@ -53,16 +53,11 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
-		boolean dimensionCriteria = false;
-		if (dimID == 0)
-			dimensionCriteria = true;
-		if (!dimensionCriteria)
-			return;
 		for (int i = 0; i < 15; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(20) + 5;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 10, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 8, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
@@ -87,7 +82,7 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemStarfragment.block, (int) (3+RANDOM.nextInt(6)+(fortune* RANDOM.nextInt(3)))));
+			drops.add(new ItemStack(ItemStarfragment.block, (int) (1+RANDOM.nextInt(4)+(fortune* RANDOM.nextInt(3)))));
 		}
 	}
 }
