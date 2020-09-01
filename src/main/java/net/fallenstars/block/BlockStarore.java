@@ -1,7 +1,7 @@
 
 package net.fallenstars.block;
 
-import net.fallenstars.creativetab.TabFallenStars;
+import net.fallenstars.ElementsFallenStars;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -33,7 +33,7 @@ import java.util.Random;
 
 @ElementsFallenStars.ModElement.Tag
 public class BlockStarore extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:starore")
+	@GameRegistry.ObjectHolder("rb:starore")
 	public static final Block block = null;
 	public BlockStarore(ElementsFallenStars instance) {
 		super(instance, 17);
@@ -48,7 +48,7 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("fallenst:starore", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rb:starore", "inventory"));
 	}
 
 	@Override
@@ -58,11 +58,11 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 15; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(20) + 0;
+			int y = random.nextInt(20) + 5;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 6, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 10, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
@@ -82,7 +82,7 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabFallenStars.tab);
+			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		}
 
 		@Override
