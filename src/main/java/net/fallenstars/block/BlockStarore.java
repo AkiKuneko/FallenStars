@@ -33,7 +33,7 @@ import java.util.Random;
 
 @ElementsFallenStars.ModElement.Tag
 public class BlockStarore extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("rb:starore")
+	@GameRegistry.ObjectHolder("fallenst:starore")
 	public static final Block block = null;
 	public BlockStarore(ElementsFallenStars instance) {
 		super(instance, 17);
@@ -48,7 +48,7 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("rb:starore", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("fallenst:starore", "inventory"));
 	}
 
 	@Override
