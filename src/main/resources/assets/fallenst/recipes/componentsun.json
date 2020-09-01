@@ -1,0 +1,30 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "fallenst:sunfragment"
+    },
+    "3": {
+      "item": "fallenst:sunfragment"
+    },
+    "4": {
+      "item": "fallenst:teir1component"
+    },
+    "5": {
+      "item": "fallenst:sunfragment"
+    },
+    "7": {
+      "item": "fallenst:sunfragment"
+    }
+  },
+  "result": {
+    "item": "fallenst:solarcomponent",
+    "count": 1
+  }
+}

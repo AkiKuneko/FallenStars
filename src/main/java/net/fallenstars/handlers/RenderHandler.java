@@ -1,8 +1,10 @@
 package net.fallenstars.handlers;
 
 import net.fallenstars.entity.EntityMoonHarvester;
+import net.fallenstars.entity.EntitySolarInvader;
 import net.fallenstars.entity.EntityStarSkipper;
 import net.fallenstars.entity.render.renderMoonHarvester;
+import net.fallenstars.entity.render.renderSolarInvader;
 import net.fallenstars.entity.render.renderStarSkipper;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -25,6 +27,12 @@ public class RenderHandler {
             @Override
             public Render<? super EntityMoonHarvester> createRenderFor(RenderManager manager) {
                 return new renderMoonHarvester(manager);
+            }
+        });
+        RenderingRegistry.registerEntityRenderingHandler(EntitySolarInvader.class, new IRenderFactory<EntitySolarInvader>() {
+            @Override
+            public Render<? super EntitySolarInvader> createRenderFor(RenderManager manager) {
+                return new renderSolarInvader(manager);
             }
         });
     }

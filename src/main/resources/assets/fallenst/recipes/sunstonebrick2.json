@@ -1,0 +1,26 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "fallenst:sunstone"
+    },
+    "1": {
+      "item": "fallenst:sunstone"
+    },
+    "2": {
+      "item": "fallenst:sunstone"
+    },
+    "3": {
+      "item": "fallenst:sunstone"
+    }
+  },
+  "result": {
+    "item": "fallenst:sunstonebrick",
+    "count": 4
+  }
+}

@@ -3,7 +3,7 @@ tile.skytable.name=Sky Table
 tile.starore.name=Star Ore
 tile.sunfragmentblock.name=Sun Fragment Block
 tile.starfragmentblock.name=Star Fragment Block
-tile.startable.name=Star Table (Tier 1)
+tile.startable.name=Star Table
 tile.moonfragmentblock.name=Moon Fragment Block
 tile.moonstone.name=Moon Stone
 tile.moonstonebrick.name=Moon Stone Bricks
@@ -18,10 +18,14 @@ item.starfragment.name=Star Fragment
 item.sunglasseshelmet.name=Sun glasses
 item.starfragmentingot.name=Star Fragment Ingot
 item.suningot.name=Sun Ingot
-item.teir1component.name=Star Component (Tier 1)
-item.starwand1.name=Star Wand (Tier 1)
+item.teir1component.name=Star Component
+item.solarcomponent.name=Solar Component
+item.mooncomponent.name=Lunar Component
+item.starwand1.name=Star Wand
 item.moonstaff.name=Moon Staff
 item.moonfragment.name=Moon Fragment
+item.itemlunarbow.name=Lunar Bow
+item.mooningot.name=Lunar Metal
 
 item.closetothesun_record.name=Sun Disc
 item.record.sundisc.desc=Close To The Sun - TheFatRat&Anjulie
@@ -33,6 +37,7 @@ itemGroup.tabfallenstars=Fallen Stars
 
 entity.starskipper.name=Star Skipper
 entity.moonharvester.name=Moon Harvester
+entity.solarinvader.name=Solar Invader
 
 advancements.nothowitworks.title=That's not how that works!
 advancements.nothowitworks.descr=Do this at night time

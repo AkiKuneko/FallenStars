@@ -1,0 +1,7 @@
+{
+  "parent": "item/bow",
+  "textures":
+  {
+    "layer0": "fallenst:items/lunarbow_pulling_2"
+  }
+}

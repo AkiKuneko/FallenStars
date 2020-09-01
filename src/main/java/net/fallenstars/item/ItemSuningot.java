@@ -65,7 +65,7 @@ public class ItemSuningot extends ElementsFallenStars.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add("Tier 1 Metal");
+			list.add("Solar Metal");
 		}
 	}
 }

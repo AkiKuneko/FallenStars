@@ -1,0 +1,30 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "fallenst:moonfragment"
+    },
+    "3": {
+      "item": "fallenst:moonfragment"
+    },
+    "4": {
+      "item": "fallenst:teir1component"
+    },
+    "5": {
+      "item": "fallenst:moonfragment"
+    },
+    "7": {
+      "item": "fallenst:moonfragment"
+    }
+  },
+  "result": {
+    "item": "fallenst:mooncomponent",
+    "count": 1
+  }
+}

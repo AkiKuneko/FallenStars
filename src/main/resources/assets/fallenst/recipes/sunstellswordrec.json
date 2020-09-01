@@ -2,16 +2,16 @@
   "group": "fallenst",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  2",
+    " 2 ",
     " 4 ",
-    "6  "
+    " 6 "
   ],
   "key": {
     "2": {
       "item": "fallenst:suningot"
     },
     "4": {
-      "item": "fallenst:teir1component"
+      "item": "fallenst:solarcomponent"
     },
     "6": {
       "item": "minecraft:stick"

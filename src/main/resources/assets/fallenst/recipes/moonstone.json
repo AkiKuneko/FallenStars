@@ -2,9 +2,9 @@
   "group": "fallenst",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "111",
     "345",
-    " 7 "
+    "171"
   ],
   "key": {
     "1": {
@@ -29,6 +29,6 @@
   },
   "result": {
     "item": "fallenst:moonstone",
-    "count": 4
+    "count": 8
   }
 }

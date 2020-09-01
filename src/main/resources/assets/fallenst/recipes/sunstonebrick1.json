@@ -16,7 +16,7 @@
       "data": 0
     },
     "4": {
-      "item": "fallenst:moonfragment"
+      "item": "fallenst:sunfragment"
     },
     "5": {
       "item": "minecraft:stonebrick",
@@ -28,7 +28,7 @@
     }
   },
   "result": {
-    "item": "fallenst:moonstonebrick",
+    "item": "fallenst:sunstonebrick",
     "count": 8
   }
 }
