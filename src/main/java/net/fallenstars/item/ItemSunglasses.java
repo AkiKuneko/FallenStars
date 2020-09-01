@@ -1,5 +1,5 @@
 
-package net.mcreator.rb.item;
+package net.fallenstars.item;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
