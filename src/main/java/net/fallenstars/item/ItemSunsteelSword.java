@@ -44,7 +44,7 @@ public class ItemSunsteelSword extends ElementsFallenStars.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SUNSTEELSWORD", 1, 700, 4f, 3.5f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SUNSTEELSWORD", 1, 1750, 4f, 5.0f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
