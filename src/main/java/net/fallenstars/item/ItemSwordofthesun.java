@@ -9,20 +9,14 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
-import net.minecraft.world.World;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.fallenstars.procedure.ProcedureSwordoftruesunRightClickedInAir;
 import net.fallenstars.ElementsFallenStars;
 
 import java.util.Set;

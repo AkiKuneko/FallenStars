@@ -1,8 +1,5 @@
 package net.fallenstars;
 
-import net.fallenstars.init.musicInit;
-import net.fallenstars.item.ItemMoonRecord;
-import net.minecraft.item.ItemRecord;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
@@ -31,10 +28,10 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.fallenstars.gui.GuiEclipcetablegui;
 import net.fallenstars.gui.GuiStartablegui;
 import net.fallenstars.gui.GuiSkytablegui;
 
-import java.rmi.registry.Registry;
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -126,6 +123,8 @@ public class ElementsFallenStars implements IFuelHandler, IWorldGenerator {
 				return new GuiStartablegui.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiSkytablegui.GUIID)
 				return new GuiSkytablegui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiEclipcetablegui.GUIID)
+				return new GuiEclipcetablegui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -135,6 +134,8 @@ public class ElementsFallenStars implements IFuelHandler, IWorldGenerator {
 				return new GuiStartablegui.GuiWindow(world, x, y, z, player);
 			if (id == GuiSkytablegui.GUIID)
 				return new GuiSkytablegui.GuiWindow(world, x, y, z, player);
+			if (id == GuiEclipcetablegui.GUIID)
+				return new GuiEclipcetablegui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

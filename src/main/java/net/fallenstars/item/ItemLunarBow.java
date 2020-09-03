@@ -5,7 +5,6 @@ import net.fallenstars.creativetab.TabFallenStars;
 import net.fallenstars.init.itemInit;
 import net.fallenstars.utils.IHasModel;
 import net.minecraft.item.ItemBow;
-import net.minecraft.item.ItemStack;
 
 public class ItemLunarBow extends ItemBow implements IHasModel {
     public ItemLunarBow(String name){

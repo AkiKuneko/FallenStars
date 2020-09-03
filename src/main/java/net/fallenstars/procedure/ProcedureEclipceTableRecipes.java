@@ -2,19 +2,19 @@ package net.fallenstars.procedure;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.item.*;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.Slot;
-import net.minecraft.inventory.Container;
-import net.minecraft.init.Items;
-import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.init.Items;
+import net.minecraft.inventory.Container;
+import net.minecraft.inventory.Slot;
+import net.minecraft.item.ItemStack;
 
-import java.util.function.Supplier;
 import java.util.Map;
+import java.util.function.Supplier;
 
 @ElementsFallenStars.ModElement.Tag
-public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
-	public ProcedureStarTableRecipes(ElementsFallenStars instance) {
+public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement {
+	public ProcedureEclipceTableRecipes(ElementsFallenStars instance) {
 		super(instance, 24);
 	}
 
@@ -51,7 +51,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())) || (((new Object() {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())) || (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;
@@ -77,7 +77,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())))) {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())))) {
 			if (entity instanceof EntityPlayerMP) {
 				Container _current = ((EntityPlayerMP) entity).openContainer;
 				if (_current instanceof Supplier) {
@@ -93,7 +93,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						((Slot) ((Map) invobj).get((int) (3))).decrStackSize((int) (1));
+						((Slot) ((Map) invobj).get((int) (2))).decrStackSize((int) (1));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -119,8 +119,8 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 								}
 								return 0;
 							}
-						}.getAmount((int) (2))) + 1));
-						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						}.getAmount((int) (4))) + 1));
+						((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
 				}
@@ -156,7 +156,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(ItemSunessence.block, (int) (1)).getItem())) || (((new Object() {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemSunessence.block, (int) (1)).getItem())) || (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;
@@ -182,7 +182,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(ItemStarfragmentingot.block, (int) (1)).getItem())))) {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemStarfragmentingot.block, (int) (1)).getItem())))) {
 			if (entity instanceof EntityPlayerMP) {
 				Container _current = ((EntityPlayerMP) entity).openContainer;
 				if (_current instanceof Supplier) {
@@ -198,7 +198,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						((Slot) ((Map) invobj).get((int) (3))).decrStackSize((int) (1));
+						((Slot) ((Map) invobj).get((int) (2))).decrStackSize((int) (1));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -224,8 +224,8 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 								}
 								return 0;
 							}
-						}.getAmount((int) (2))) + 1));
-						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						}.getAmount((int) (4))) + 1));
+						((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
 				}
@@ -257,7 +257,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(ItemStarfragment.block, (int) (1)).getItem())) || (((new Object() {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemStarfragment.block, (int) (1)).getItem())) || (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;
@@ -283,7 +283,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (3))).getItem() == new ItemStack(Items.IRON_INGOT, (int) (1)).getItem())))) {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(Items.IRON_INGOT, (int) (1)).getItem())))) {
 			if (entity instanceof EntityPlayerMP) {
 				Container _current = ((EntityPlayerMP) entity).openContainer;
 				if (_current instanceof Supplier) {
@@ -299,7 +299,7 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						((Slot) ((Map) invobj).get((int) (3))).decrStackSize((int) (1));
+						((Slot) ((Map) invobj).get((int) (2))).decrStackSize((int) (1));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -325,8 +325,8 @@ public class ProcedureStarTableRecipes extends ElementsFallenStars.ModElement {
 								}
 								return 0;
 							}
-						}.getAmount((int) (2))) + 1));
-						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						}.getAmount((int) (4))) + 1));
+						((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
 				}

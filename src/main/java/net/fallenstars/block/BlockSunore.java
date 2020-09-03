@@ -15,8 +15,6 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.entity.Entity;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -24,7 +22,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
-import net.fallenstars.procedure.ProcedureSunoreEntityCollidesInTheBlock;
 import net.fallenstars.item.ItemSunessence;
 import net.fallenstars.ElementsFallenStars;
 

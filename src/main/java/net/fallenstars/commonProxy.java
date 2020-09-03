@@ -1,14 +1,10 @@
 package net.fallenstars;
 
-import net.fallenstars.entity.EntityMoonHarvester;
 import net.fallenstars.entity.EntityStarSkipper;
 import net.fallenstars.gen.WorldGenCustomeStructures;
 import net.fallenstars.init.EntityInit;
-import net.fallenstars.init.musicInit;
-import net.fallenstars.item.ItemMoonRecord;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemRecord;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;

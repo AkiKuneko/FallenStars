@@ -1,23 +1,14 @@
 package net.fallenstars.entity;
 
 import net.fallenstars.handlers.LootTableHandler;
-import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.*;
 import net.minecraft.entity.monster.*;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
-import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.Biome;
-
-import java.util.ArrayList;
-import java.util.Iterator;
 
 public class EntityMoonHarvester extends EntityMob {
     public EntityMoonHarvester(World worldIn) {

@@ -1,6 +1,5 @@
 package net.fallenstars.procedure;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;

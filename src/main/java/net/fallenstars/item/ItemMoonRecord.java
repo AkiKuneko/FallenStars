@@ -1,7 +1,6 @@
 package net.fallenstars.item;
 
 import net.fallenstars.FallenStars;
-import net.fallenstars.creativetab.TabFallenStars;
 import net.fallenstars.init.itemInit;
 import net.fallenstars.utils.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;

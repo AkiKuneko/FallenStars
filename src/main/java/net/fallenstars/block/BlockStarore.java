@@ -27,7 +27,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import net.fallenstars.item.ItemStarfragment;
-import net.fallenstars.ElementsFallenStars;
 
 import java.util.Random;
 

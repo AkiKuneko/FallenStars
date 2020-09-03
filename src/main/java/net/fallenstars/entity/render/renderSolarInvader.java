@@ -2,9 +2,7 @@ package net.fallenstars.entity.render;
 
 import net.fallenstars.FallenStars;
 import net.fallenstars.entity.EntitySolarInvader;
-import net.fallenstars.entity.EntityStarSkipper;
 import net.fallenstars.entity.model.solarInvader;
-import net.fallenstars.entity.model.starskipper;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;
