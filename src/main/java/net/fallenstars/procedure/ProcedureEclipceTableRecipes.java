@@ -51,32 +51,6 @@ public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())) || (((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				if (entity instanceof EntityPlayerMP) {
-					Container _current = ((EntityPlayerMP) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
-						}
-					}
-				}
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack((int) (1))).getItem() == new ItemStack(ItemStarfragmentingot.block, (int) (1)).getItem()) && ((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				if (entity instanceof EntityPlayerMP) {
-					Container _current = ((EntityPlayerMP) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
-						}
-					}
-				}
-				return ItemStack.EMPTY;
-			}
 		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemMoonFragment.block, (int) (1)).getItem())))) {
 			if (entity instanceof EntityPlayerMP) {
 				Container _current = ((EntityPlayerMP) entity).openContainer;
