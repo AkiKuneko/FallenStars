@@ -1,6 +1,7 @@
 package net.fallenstars.init;
 
 import net.fallenstars.item.misc.ItemFallenstRecords;
+import net.fallenstars.item.moon.tools.ItemMoonAxe;
 import net.fallenstars.item.moon.tools.ItemMoonShovel;
 import net.fallenstars.item.moon.weapons.ItemLunarBow;
 import net.fallenstars.item.moon.tools.ItemMoonHoe;
@@ -30,7 +31,7 @@ public class itemInit
     //Moon Items
     public static final Item lunarbow = new ItemLunarBow("itemlunarbow");
     public static final Item moonPickaxe = new ItemMoonPickaxe("moonpickaxe", TOOL_MOON);
-    public static final Item moonAxe = new ItemMoonHoe("moonaxe", TOOL_MOON);
+    public static final Item moonAxe = new ItemMoonAxe("moonaxe", TOOL_MOON);
     public static final Item moonShovel = new ItemMoonShovel("moonshovel", TOOL_MOON);
     public static final Item moonHoe = new ItemMoonHoe("moonhoe", TOOL_MOON);
 
