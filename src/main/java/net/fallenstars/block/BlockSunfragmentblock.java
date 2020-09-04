@@ -49,7 +49,7 @@ public class BlockSunfragmentblock extends ElementsFallenStars.ModElement {
 			setHarvestLevel("pickaxe", 1);
 			setHardness(1F);
 			setResistance(10F);
-			setLightLevel(1F);
+			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabFallenStars.tab);
 		}

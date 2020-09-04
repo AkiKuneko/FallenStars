@@ -52,7 +52,7 @@ public class BlockStarfragmentblock extends ElementsFallenStars.ModElement {
 			setSoundType(SoundType.GLASS);
 			setHardness(1F);
 			setResistance(10F);
-			setLightLevel(0.3F);
+			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabFallenStars.tab);
 		}
