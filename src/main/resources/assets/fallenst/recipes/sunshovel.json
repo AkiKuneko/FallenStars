@@ -1,0 +1,21 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 2 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "fallenst:suningot"
+    }
+  },
+  "result": {
+    "item": "fallenst:sunshovel",
+    "count": 1
+  }
+}
