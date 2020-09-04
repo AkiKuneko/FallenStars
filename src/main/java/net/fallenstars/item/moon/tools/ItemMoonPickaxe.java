@@ -4,9 +4,9 @@ import net.fallenstars.FallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
 import net.fallenstars.init.itemInit;
 import net.fallenstars.utils.IHasModel;
-import net.minecraft.item.ItemHoe;
+import net.minecraft.item.ItemPickaxe;
 
-public class ItemMoonPickaxe extends ItemHoe implements IHasModel {
+public class ItemMoonPickaxe extends ItemPickaxe implements IHasModel {
 
     public ItemMoonPickaxe(String name, ToolMaterial material) {
         super(material);

@@ -20,11 +20,10 @@ import java.util.List;
 public class itemInit
 {
     public static final List<Item> ITEMS = new ArrayList<Item>();
-    public static final ToolMaterial TOOL_SUN = EnumHelper.addToolMaterial("tool_sun",5,2000,5.0f,3.5f,19);
-    public static final ToolMaterial TOOL_MOON = EnumHelper.addToolMaterial("tool_moon",5,2000,5.0f,3.5f,19);
+    public static final ToolMaterial TOOL_SUN = EnumHelper.addToolMaterial("tool_sun",5,2000,12.0f,3.5f,19);
+    public static final ToolMaterial TOOL_MOON = EnumHelper.addToolMaterial("tool_moon",5,2000,12.0f,3.5f,19);
 
     public static final ItemRecord closetothesun_record = new ItemFallenstRecords("sundisc", musicInit.closetothesun,"closetothesun_record","itemclosetothesunrecord");
-
 
     public static final ItemRecord moonlightsonata_record = new ItemFallenstRecords("moondisc", musicInit.moonlightsonata,"moonlightsonata_record","itemmoonlightsonatarecord");
 

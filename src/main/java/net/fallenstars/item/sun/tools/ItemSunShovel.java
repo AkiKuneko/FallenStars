@@ -4,9 +4,9 @@ import net.fallenstars.FallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
 import net.fallenstars.init.itemInit;
 import net.fallenstars.utils.IHasModel;
-import net.minecraft.item.ItemHoe;
+import net.minecraft.item.ItemSpade;
 
-public class ItemSunShovel extends ItemHoe implements IHasModel {
+public class ItemSunShovel extends ItemSpade implements IHasModel {
 
     public ItemSunShovel(String name, ToolMaterial material) {
         super(material);
