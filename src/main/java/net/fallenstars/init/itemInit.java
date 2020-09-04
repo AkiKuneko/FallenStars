@@ -20,8 +20,9 @@ import java.util.List;
 public class itemInit
 {
     public static final List<Item> ITEMS = new ArrayList<Item>();
-    public static final ToolMaterial TOOL_SUN = EnumHelper.addToolMaterial("tool_sun",5,2000,12.0f,3.5f,19);
-    public static final ToolMaterial TOOL_MOON = EnumHelper.addToolMaterial("tool_moon",5,2000,12.0f,3.5f,19);
+    public static final ToolMaterial TOOL_SUN = EnumHelper.addToolMaterial("tool_sun",5,2000,15.0f,3.5f,19);
+    public static final ToolMaterial TOOL_MOON = EnumHelper.addToolMaterial("tool_moon",5,2000,15.0f,3.5f,19);
+    public static final ToolMaterial TOOL_MOON_SUN_SHOVEL = EnumHelper.addToolMaterial("tool_moon",5,2000,10.0f,3.5f,19);
 
     public static final ItemRecord closetothesun_record = new ItemFallenstRecords("sundisc", musicInit.closetothesun,"closetothesun_record","itemclosetothesunrecord");
 
@@ -31,12 +32,12 @@ public class itemInit
     public static final Item lunarbow = new ItemLunarBow("itemlunarbow");
     public static final Item moonPickaxe = new ItemMoonPickaxe("moonpickaxe", TOOL_MOON);
     public static final Item moonAxe = new ItemMoonHoe("moonaxe", TOOL_MOON);
-    public static final Item moonShovel = new ItemMoonShovel("moonshovel", TOOL_MOON);
+    public static final Item moonShovel = new ItemMoonShovel("moonshovel", TOOL_MOON_SUN_SHOVEL);
     public static final Item moonHoe = new ItemMoonHoe("moonhoe", TOOL_MOON);
 
     //Sun Items
     public static final Item sunPickaxe = new ItemSunPickaxe("sunpickaxe", TOOL_SUN);
     public static final Item sunAxe = new ItemSunAxe("sunaxe", TOOL_SUN);
-    public static final Item sunShovel = new ItemSunShovel("sunshovel", TOOL_SUN);
+    public static final Item sunShovel = new ItemSunShovel("sunshovel", TOOL_MOON_SUN_SHOVEL);
     public static final Item sunHoe = new ItemSunHoe("sunhoe", TOOL_SUN);
 }
