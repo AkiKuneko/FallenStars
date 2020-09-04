@@ -1,28 +1,25 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.moon.materials;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import java.util.List;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemMoonFragment extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:moonfragment")
+public class ItemMooningot extends ElementsFallenStars.ModElement {
+	@GameRegistry.ObjectHolder("fallenst:mooningot")
 	public static final Item block = null;
-	public ItemMoonFragment(ElementsFallenStars instance) {
-		super(instance, 21);
+	public ItemMooningot(ElementsFallenStars instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -33,14 +30,14 @@ public class ItemMoonFragment extends ElementsFallenStars.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:moonfragment", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:mooningot", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("moonfragment");
-			setRegistryName("moonfragment");
+			setUnlocalizedName("mooningot");
+			setRegistryName("mooningot");
 			setCreativeTab(TabFallenStars.tab);
 		}
 
@@ -57,12 +54,6 @@ public class ItemMoonFragment extends ElementsFallenStars.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add("Tier 1 crafting compenent");
 		}
 	}
 }

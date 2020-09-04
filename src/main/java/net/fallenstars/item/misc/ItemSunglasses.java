@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.misc;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;

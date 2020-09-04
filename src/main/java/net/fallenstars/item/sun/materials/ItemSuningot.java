@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.sun.materials;
 
 import net.fallenstars.creativetab.TabFallenStars;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -20,11 +20,11 @@ import net.fallenstars.ElementsFallenStars;
 import java.util.List;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemSunessence extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:sunfragment")
+public class ItemSuningot extends ElementsFallenStars.ModElement {
+	@GameRegistry.ObjectHolder("fallenst:suningot")
 	public static final Item block = null;
-	public ItemSunessence(ElementsFallenStars instance) {
-		super(instance, 21);
+	public ItemSuningot(ElementsFallenStars instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -35,14 +35,14 @@ public class ItemSunessence extends ElementsFallenStars.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:sunessence", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:suningot", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("sunfragment");
-			setRegistryName("sunfragment");
+			setUnlocalizedName("suningot");
+			setRegistryName("suningot");
 			setCreativeTab(TabFallenStars.tab);
 		}
 
@@ -64,7 +64,7 @@ public class ItemSunessence extends ElementsFallenStars.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add("Tier 1 crafting compenent");
+			list.add("Solar Metal");
 		}
 	}
 }

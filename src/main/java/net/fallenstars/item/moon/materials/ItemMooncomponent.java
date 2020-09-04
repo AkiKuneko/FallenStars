@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.moon.materials;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.creativetab.TabFallenStars;

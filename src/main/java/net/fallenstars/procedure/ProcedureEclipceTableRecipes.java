@@ -1,7 +1,12 @@
 package net.fallenstars.procedure;
 
 import net.fallenstars.ElementsFallenStars;
-import net.fallenstars.item.*;
+import net.fallenstars.item.moon.materials.ItemMoonFragment;
+import net.fallenstars.item.moon.materials.ItemMooningot;
+import net.fallenstars.item.star.materials.ItemStarfragment;
+import net.fallenstars.item.star.materials.ItemStarfragmentingot;
+import net.fallenstars.item.sun.materials.ItemSuneFragment;
+import net.fallenstars.item.sun.materials.ItemSuningot;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
@@ -130,7 +135,7 @@ public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemSunessence.block, (int) (1)).getItem())) || (((new Object() {
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemSuneFragment.block, (int) (1)).getItem())) || (((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;
@@ -143,7 +148,7 @@ public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement
 				}
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack((int) (1))).getItem() == new ItemStack(ItemSunessence.block, (int) (1)).getItem()) && ((new Object() {
+		}.getItemStack((int) (1))).getItem() == new ItemStack(ItemSuneFragment.block, (int) (1)).getItem()) && ((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;

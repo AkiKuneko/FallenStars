@@ -7,8 +7,8 @@ import net.minecraft.init.Items;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.Entity;
 
-import net.fallenstars.item.ItemStarfragmentingot;
-import net.fallenstars.item.ItemStarfragment;
+import net.fallenstars.item.star.materials.ItemStarfragmentingot;
+import net.fallenstars.item.star.materials.ItemStarfragment;
 import net.fallenstars.ElementsFallenStars;
 
 import java.util.function.Supplier;

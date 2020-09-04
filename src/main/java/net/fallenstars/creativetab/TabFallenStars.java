@@ -6,7 +6,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
-import net.fallenstars.item.ItemStarwand1;
+import net.fallenstars.item.wand.ItemStarwand1;
 import net.fallenstars.ElementsFallenStars;
 
 @ElementsFallenStars.ModElement.Tag

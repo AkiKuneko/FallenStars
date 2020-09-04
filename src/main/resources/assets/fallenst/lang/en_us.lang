@@ -10,8 +10,6 @@ tile.moonstonebrick.name=Moon Stone Bricks
 tile.sunstone.name=Sun Stone
 tile.sunstonebrick.name=Sun Stone Bricks
 
-item.swordofthesun.name=Sword of the Sun
-item.sunsteelsword.name=Sunsteel Sword
 item.sunfragment.name=Sun Fragment
 item.blockelement.name=Block Element
 item.starfragment.name=Star Fragment
@@ -22,14 +20,25 @@ item.teir1component.name=Star Component
 item.solarcomponent.name=Solar Component
 item.mooncomponent.name=Lunar Component
 item.starwand1.name=Star Wand
-item.moonstaff.name=Moon Staff
 item.moonfragment.name=Moon Fragment
-item.itemlunarbow.name=Lunar Bow
 item.mooningot.name=Lunar Metal
+
+item.moonstaff.name=Moon Staff
+item.itemlunarbow.name=Lunar Bow
+item.moonpickaxe.name=Lunar Pickaxe
+item.moonaxe.name=Lunar Axe
+item.moonshovel.name=Lunar Shovel
+item.moonhoe.name=Lunar Hoe
+
+item.swordofthesun.name=Sword of the Sun
+item.sunsteelsword.name=Sunsteel Sword
+item.sunpickaxe.name=Solar Pickaxe
+item.sunaxe.name=Solar Axe
+item.sunshovel.name=Solar Shovel
+item.sunhoe.name=Solar Hoe
 
 item.closetothesun_record.name=Sun Disc
 item.record.sundisc.desc=Close To The Sun - TheFatRat&Anjulie
-
 item.moonlightsonata_record.name=Moon Disc
 item.record.moondisc.desc=Moonlight Sonata - Beethoven
 

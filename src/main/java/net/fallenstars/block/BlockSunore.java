@@ -2,6 +2,7 @@
 package net.fallenstars.block;
 
 import net.fallenstars.creativetab.TabFallenStars;
+import net.fallenstars.item.sun.materials.ItemSuneFragment;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -22,7 +23,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
-import net.fallenstars.item.ItemSunessence;
 import net.fallenstars.ElementsFallenStars;
 
 import java.util.List;
@@ -66,7 +66,7 @@ public class BlockSunore extends ElementsFallenStars.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemSunessence.block, (int) (3+RANDOM.nextInt(6)+(fortune* RANDOM.nextInt(3)))));
+			drops.add(new ItemStack(ItemSuneFragment.block, (int) (3+RANDOM.nextInt(6)+(fortune* RANDOM.nextInt(3)))));
 		}
 	}
 }

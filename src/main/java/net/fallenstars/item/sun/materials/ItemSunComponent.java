@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.sun.materials;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
@@ -18,10 +18,10 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import java.util.List;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemSolarComponent extends ElementsFallenStars.ModElement {
+public class ItemSunComponent extends ElementsFallenStars.ModElement {
 	@GameRegistry.ObjectHolder("fallenst:solarcomponent")
 	public static final Item block = null;
-	public ItemSolarComponent(ElementsFallenStars instance) {
+	public ItemSunComponent(ElementsFallenStars instance) {
 		super(instance, 11);
 	}
 

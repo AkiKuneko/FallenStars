@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.star.materials;
 
 import net.fallenstars.creativetab.TabFallenStars;
 import net.minecraftforge.fml.relauncher.SideOnly;

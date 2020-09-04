@@ -1,7 +1,8 @@
-package net.fallenstars.item;
+package net.fallenstars.item.moon.weapons;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
+import net.fallenstars.item.moon.materials.ItemMoonFragment;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;

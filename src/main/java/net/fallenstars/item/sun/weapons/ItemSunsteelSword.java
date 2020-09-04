@@ -1,5 +1,5 @@
 
-package net.fallenstars.item;
+package net.fallenstars.item.sun.weapons;
 
 import net.fallenstars.creativetab.TabFallenStars;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -13,28 +13,29 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
+
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
+
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.fallenstars.ElementsFallenStars;
-
 import java.util.Set;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
 
 @ElementsFallenStars.ModElement.Tag
-public class ItemSwordofthesun extends ElementsFallenStars.ModElement {
-	@GameRegistry.ObjectHolder("fallenst:swordofthesun")
+public class ItemSunsteelSword extends ElementsFallenStars.ModElement {
+	@GameRegistry.ObjectHolder("fallenst:sunsteelsword")
 	public static final Item block = null;
-	public ItemSwordofthesun(ElementsFallenStars instance) {
-		super(instance, 27);
+	public ItemSunsteelSword(ElementsFallenStars instance) {
+		super(instance, 25);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SWORDOFTHESUN", 1, 2000, 4f, 5f, 10)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("SUNSTEELSWORD", 1, 1750, 4f, 5.0f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -52,12 +53,12 @@ public class ItemSwordofthesun extends ElementsFallenStars.ModElement {
 				ret.put("sword", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("swordofthesun").setRegistryName("swordofthesun").setCreativeTab(TabFallenStars.tab));
+		}.setUnlocalizedName("sunsteelsword").setRegistryName("sunsteelsword").setCreativeTab(TabFallenStars.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:swordoftruesun", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("fallenst:sunsteelsword", "inventory"));
 	}
 }

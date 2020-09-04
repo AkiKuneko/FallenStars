@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.IProperty;
 
-import net.fallenstars.item.ItemStarwand1;
+import net.fallenstars.item.wand.ItemStarwand1;
 import net.fallenstars.block.BlockSunfragmentblock;
 import net.fallenstars.ElementsFallenStars;
 

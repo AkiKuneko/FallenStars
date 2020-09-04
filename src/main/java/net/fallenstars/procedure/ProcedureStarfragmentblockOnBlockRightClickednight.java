@@ -2,7 +2,7 @@ package net.fallenstars.procedure;
 
 import net.fallenstars.ElementsFallenStars;
 import net.fallenstars.block.BlockMoonfragmentblock;
-import net.fallenstars.item.ItemStarwand1;
+import net.fallenstars.item.wand.ItemStarwand1;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;

@@ -1,4 +1,4 @@
-package net.fallenstars.item;
+package net.fallenstars.item.misc;
 
 import net.fallenstars.FallenStars;
 import net.fallenstars.init.itemInit;
@@ -7,8 +7,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.util.SoundEvent;
 
-public class ItemMoonRecord extends ItemRecord implements IHasModel {
-    public ItemMoonRecord(String name, SoundEvent soundIn, String UnlocalizedName, String RegistryName) {
+public class ItemFallenstRecords extends ItemRecord implements IHasModel {
+    public ItemFallenstRecords(String name, SoundEvent soundIn, String UnlocalizedName, String RegistryName) {
         super(name, soundIn);
         this.setUnlocalizedName(UnlocalizedName);
         this.setRegistryName(RegistryName);

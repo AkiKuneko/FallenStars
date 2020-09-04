@@ -1,4 +1,4 @@
-package net.fallenstars.item;
+package net.fallenstars.item.moon.weapons;
 
 import net.fallenstars.FallenStars;
 import net.fallenstars.creativetab.TabFallenStars;
