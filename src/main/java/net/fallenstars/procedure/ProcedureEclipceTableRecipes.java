@@ -166,7 +166,7 @@ public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement
 				}
 				return 0;
 			}
-		}.getAmount((int) (2))) >= 5)) {
+		}.getAmount((int) (2))) >= 3)) {
 			if (entity instanceof EntityPlayerMP) {
 				Container _current = ((EntityPlayerMP) entity).openContainer;
 				if (_current instanceof Supplier) {
