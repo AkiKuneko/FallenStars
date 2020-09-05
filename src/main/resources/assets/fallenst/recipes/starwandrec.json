@@ -2,30 +2,18 @@
   "group": "fallenst",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 12",
-    "345",
-    "67 "
+    " 32",
+    "123",
+    "11 "
   ],
   "key": {
     "1": {
       "item": "fallenst:starinfusedobsidian"
     },
     "2": {
-      "item": "fallenst:starinfusedobsidian"
+      "item": "fallenst:starcomponent"
     },
     "3": {
-      "item": "fallenst:starfragmentingot"
-    },
-    "4": {
-      "item": "fallenst:starcomponent"
-    },
-    "5": {
-      "item": "fallenst:starinfusedobsidian"
-    },
-    "6": {
-      "item": "fallenst:starcomponent"
-    },
-    "7": {
       "item": "fallenst:starfragmentingot"
     }
   },
