@@ -1,6 +1,7 @@
 package net.fallenstars.procedure;
 
 import net.fallenstars.ElementsFallenStars;
+import net.fallenstars.block.BlockStarInfusedObsidian;
 import net.fallenstars.item.moon.materials.ItemMoonFragment;
 import net.fallenstars.item.moon.materials.ItemMooningot;
 import net.fallenstars.item.star.materials.ItemStarfragment;
@@ -9,6 +10,7 @@ import net.fallenstars.item.sun.materials.ItemSuneFragment;
 import net.fallenstars.item.sun.materials.ItemSuningot;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
@@ -99,6 +101,117 @@ public class ProcedureEclipceTableRecipes extends ElementsFallenStars.ModElement
 								return 0;
 							}
 						}.getAmount((int) (4))) + 1));
+						((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+		}
+
+
+		if (((((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (1))).getItem() == new ItemStack(Blocks.OBSIDIAN, (int) (1)).getItem()) && ((new Object() {
+			public int getAmount(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();
+							if (stack != null)
+								return stack.getCount();
+						}
+					}
+				}
+				return 0;
+			}
+		}.getAmount((int) (1))) >= 2))) && ((new Object(){
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (2))).getItem() == new ItemStack(ItemStarfragment.block, (int) (1)).getItem()) && ((new Object() {
+			public int getAmount(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();
+							;
+							if (stack != null)
+								return stack.getCount();
+						}
+					}
+				}
+				return 0;
+			}
+		}.getAmount((int) (2))) >= 5)) {
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						((Slot) ((Map) invobj).get((int) (2))).decrStackSize((int) (5));
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (2));
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(BlockStarInfusedObsidian.block, (int) (1));
+						_setstack.setCount(((new Object() {
+							public int getAmount(int sltid) {
+								if (entity instanceof EntityPlayerMP) {
+									Container _current = ((EntityPlayerMP) entity).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();
+											;
+											if (stack != null)
+												return stack.getCount();
+										}
+									}
+								}
+								return 0;
+							}
+						}.getAmount((int) (2))) + 1));
 						((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
