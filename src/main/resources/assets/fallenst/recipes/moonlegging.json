@@ -1,0 +1,21 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "212",
+    "2 2",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "fallenst:mooncomponent"
+    },
+    "2": {
+      "item": "fallenst:mooningot"
+    }
+  },
+  "result": {
+    "item": "fallenst:moonleggings",
+    "count": 1
+  }
+}

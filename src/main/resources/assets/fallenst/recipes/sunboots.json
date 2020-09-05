@@ -1,0 +1,21 @@
+{
+  "group": "fallenst",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "2 2",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "fallenst:solarcomponent"
+    },
+    "2": {
+      "item": "fallenst:suningot"
+    }
+  },
+  "result": {
+    "item": "fallenst:sunboots",
+    "count": 1
+  }
+}
