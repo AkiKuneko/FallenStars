@@ -25,12 +25,6 @@ import net.fallenstars.ElementsFallenStars;
 public class ItemSunglasses extends ElementsFallenStars.ModElement {
 	@GameRegistry.ObjectHolder("fallenst:sunglasseshelmet")
 	public static final Item helmet = null;
-	@GameRegistry.ObjectHolder("fallenst:sunglassesbody")
-	public static final Item body = null;
-	@GameRegistry.ObjectHolder("fallenst:sunglasseslegs")
-	public static final Item legs = null;
-	@GameRegistry.ObjectHolder("fallenst:sunglassesboots")
-	public static final Item boots = null;
 	public ItemSunglasses(ElementsFallenStars instance) {
 		super(instance, 30);
 	}

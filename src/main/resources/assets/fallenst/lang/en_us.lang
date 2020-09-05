@@ -37,6 +37,10 @@ item.moonpickaxe.name=Lunar Pickaxe
 item.moonaxe.name=Lunar Axe
 item.moonshovel.name=Lunar Shovel
 item.moonhoe.name=Lunar Hoe
+item.moonhelmet.name=Lunar Helmet
+item.moonchestpice.name=Lunar Chestpice
+item.moonleggings.name=Lunar leggings
+item.moonboots.name=Lunar Boots
 
 item.swordofthesun.name=Sword of the Sun
 item.sunsteelsword.name=Sunsteel Sword
@@ -44,6 +48,10 @@ item.sunpickaxe.name=Solar Pickaxe
 item.sunaxe.name=Solar Axe
 item.sunshovel.name=Solar Shovel
 item.sunhoe.name=Solar Hoe
+item.sunhelmet.name=Solar Helmet
+item.sunchestpice.name=Solar Chestpice
+item.sunleggings.name=Solar leggings
+item.sunboots.name=Solar Boots
 
 item.closetothesun_record.name=Sun Disc
 item.record.sundisc.desc=Close To The Sun - TheFatRat&Anjulie
