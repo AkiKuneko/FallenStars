@@ -46,9 +46,9 @@ public class BlockStarInfusedObsidian extends ElementsFallenStars.ModElement {
 			setUnlocalizedName("starinfusedobsidian");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 1);
-			setHardness(4F);
-			setResistance(10F);
-			setLightLevel(0F);
+			setHardness(40F);
+			setResistance(40F);
+			setLightLevel(0.3F);
 			setLightOpacity(255);
 			setCreativeTab(TabFallenStars.tab);
 		}

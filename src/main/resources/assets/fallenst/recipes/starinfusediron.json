@@ -8,10 +8,10 @@
   ],
   "key": {
     "1": {
-      "item": "minecraft:iron_ingot"
+      "item": "fallenst:starfragment"
     },
     "2": {
-      "item": "fallenst:starfragment"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
