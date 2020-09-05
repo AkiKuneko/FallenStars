@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:glass"
+      "item": "fallenst:starinfusediron"
     },
     "1": {
       "item": "minecraft:diamond"
     },
     "2": {
-      "item": "minecraft:glass"
+      "item": "fallenst:starinfusediron"
     },
     "3": {
       "item": "minecraft:glass"
@@ -26,13 +26,13 @@
       "item": "minecraft:glass"
     },
     "6": {
-      "item": "minecraft:glass"
+      "item": "fallenst:starinfusediron"
     },
     "7": {
       "item": "fallenst:starfragment"
     },
     "8": {
-      "item": "minecraft:glass"
+      "item": "fallenst:starinfusediron"
     }
   },
   "result": {

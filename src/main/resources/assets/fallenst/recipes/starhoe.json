@@ -2,8 +2,8 @@
   "group": "fallenst",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "32 ",
-    "21 ",
+    " 22",
+    " 1 ",
     " 1 "
   ],
   "key": {
@@ -11,14 +11,11 @@
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "fallenst:mooningot"
-    },
-    "3": {
-      "item": "fallenst:mooncomponent"
+      "item": "fallenst:starinfusediron"
     }
   },
   "result": {
-    "item": "fallenst:moonaxe",
+    "item": "fallenst:starhoe",
     "count": 1
   }
 }

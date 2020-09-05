@@ -9,6 +9,7 @@ tile.moonstone.name=Moon Stone
 tile.moonstonebrick.name=Moon Stone Bricks
 tile.sunstone.name=Sun Stone
 tile.sunstonebrick.name=Sun Stone Bricks
+tile.starinfusedobsidian.name=Star Infused Obsidian
 
 item.sunfragment.name=Sun Fragment
 item.blockelement.name=Block Element
@@ -22,6 +23,13 @@ item.mooncomponent.name=Lunar Component
 item.starwand1.name=Star Wand
 item.moonfragment.name=Moon Fragment
 item.mooningot.name=Lunar Metal
+item.starinfusediron.name=Star Infused Iron Ingot
+
+item.starhoe.name=Star Infused Hoe
+item.staraxe.name=Star Infused Axe
+item.starpickaxe.name=Star Infused Pickaxe
+item.starshovel.name=Star Infused Shovel
+item.starsword.name=Star Infused Sword
 
 item.moonstaff.name=Moon Staff
 item.itemlunarbow.name=Lunar Bow
