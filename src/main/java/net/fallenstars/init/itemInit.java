@@ -35,7 +35,7 @@ public class itemInit
     public static final ArmorMaterial ARMOR_SUN = EnumHelper.addArmorMaterial("armor_sun", FallenStars.MODID + ":sun" ,2000, new int[]{5,10,7,5},19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8.0F);
     public static final ArmorMaterial ARMOR_MOON = EnumHelper.addArmorMaterial("armor_moon", FallenStars.MODID + ":moon" ,2000, new int[]{8,15,14,10},19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5.0F);
 
-    public static final ItemRecord closetothesun_record = new ItemFallenstRecords("sundisc", musicInit.thedevilspiano,"thedevilspiano_record","itemthedevilspianorecord");
+    public static final ItemRecord thedevilspiano_record = new ItemFallenstRecords("sundisc", musicInit.thedevilspiano,"thedevilspiano_record","itemthedevilspianorecord");
 
     public static final ItemRecord moonlightsonata_record = new ItemFallenstRecords("moondisc", musicInit.moonlightsonata,"moonlightsonata_record","itemmoonlightsonatarecord");
 

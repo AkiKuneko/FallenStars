@@ -3,6 +3,7 @@ package net.fallenstars;
 import net.fallenstars.entity.EntityStarSkipper;
 import net.fallenstars.gen.WorldGenCustomeStructures;
 import net.fallenstars.init.EntityInit;
+import net.fallenstars.init.musicInit;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -27,6 +28,7 @@ public class commonProxy {
     }
 
     public void preInit(FMLPreInitializationEvent event){
+        musicInit.registerSounds();
         GameRegistry.registerWorldGenerator(new WorldGenCustomeStructures(), 0);
         EntityInit.registerEntites();
     }

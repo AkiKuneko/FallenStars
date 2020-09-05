@@ -1,6 +1,5 @@
 package net.fallenstars;
 
-import net.fallenstars.init.musicInit;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -42,7 +41,6 @@ public class FallenStars {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		musicInit.registerSounds();
 		MinecraftForge.EVENT_BUS.register(this);
 		GameRegistry.registerWorldGenerator(elements, 5);
 		GameRegistry.registerFuelHandler(elements);

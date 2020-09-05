@@ -2,13 +2,15 @@
   "moonlightsonata": {
     "sounds":[{
       "name": "fallenst:moonlightsonata",
-      "stream": true
+      "stream": true,
+      "volume": 0.3
     }]
   },
-  "closetothesun": {
+  "thedevilspiano": {
     "sounds":[{
-      "name": "fallenst:closetothesun",
-      "stream": true
+      "name": "fallenst:thedevilspiano",
+      "stream": true,
+      "volume": 0.2
     }]
   }
 }
