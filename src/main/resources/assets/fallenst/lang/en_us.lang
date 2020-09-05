@@ -63,6 +63,3 @@ itemGroup.tabfallenstars=Fallen Stars
 entity.starskipper.name=Star Skipper
 entity.moonharvester.name=Moon Harvester
 entity.solarinvader.name=Solar Invader
-
-advancements.nothowitworks.title=That's not how that works!
-advancements.nothowitworks.descr=Do this at night time
