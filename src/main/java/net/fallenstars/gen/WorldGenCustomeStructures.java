@@ -28,8 +28,8 @@ public class WorldGenCustomeStructures implements IWorldGenerator
             case 1:
                 break;
             case 0:
-                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,1250, Blocks.GRASS);
-                generateStructure(MOONTEMPLE,world,random,chunkX,chunkZ,1250, Blocks.GRASS);
+                generateStructure(SUNTEMPLE,world,random,chunkX,chunkZ,1750, Blocks.GRASS);
+                generateStructure(MOONTEMPLE,world,random,chunkX,chunkZ,1750, Blocks.GRASS);
                 break;
             case -1:
                 break;
