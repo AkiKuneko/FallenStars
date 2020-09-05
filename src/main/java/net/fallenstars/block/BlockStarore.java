@@ -52,9 +52,9 @@ public class BlockStarore extends ElementsFallenStars.ModElement {
 
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
-		for (int i = 0; i < random.nextInt(10)+3; i++) {
+		for (int i = 0; i < random.nextInt(10)+5; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(20) + 5;
+			int y = random.nextInt(30) + 5;
 			int z = chunkZ + random.nextInt(16);
 			(new WorldGenMinable(block.getDefaultState(), 5, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
