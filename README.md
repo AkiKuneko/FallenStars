@@ -7,7 +7,7 @@ If Issues are not filled out properly we will close the issue
 ## Donations
 **ReCallGG** 
 
-[![Paypal](https://img.shields.io/badge/Paypal-Donate-blue.svg?longCache=true&style=for-the-badge)](paypal.me/recall146)
+[![Paypal](https://img.shields.io/badge/Paypal-Donate-blue.svg?longCache=true&style=for-the-badge)](https://paypal.me/recall146)
 
 ## License
 [GNU-AGPv3.0](https://choosealicense.com/licenses/agpl-3.0/)
