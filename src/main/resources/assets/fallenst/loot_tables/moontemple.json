@@ -6,6 +6,10 @@
                 "min": 4,
                 "max": 7
             },
+            "bonus_rolls": {
+                "min": 1,
+                "max": 4
+            },
             "entries": [
                 {
                     "type": "item",

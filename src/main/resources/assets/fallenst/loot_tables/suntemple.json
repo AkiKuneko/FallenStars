@@ -1,10 +1,10 @@
 {
     "pools": [
         {
-            "name": "SunTempleMain",
+            "name": "main",
             "rolls": {
                 "min": 4,
-                "max": 10
+                "max": 7
             },
             "bonus_rolls": {
                 "min": 1,
@@ -13,56 +13,70 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "fallenst:starfragment",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 16
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "fallenst:sunfragment",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:gold_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 15
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
+                    "weight": 5,
                     "name": "minecraft:diamond",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 0,
-                                "max": 6
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 35,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 21
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 13
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:blaze_rod",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "fallenst:sunfragment",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 15
                             }
                         }
                     ]
@@ -70,7 +84,7 @@
             ]
         },
         {
-            "name": "SunTempleSword",
+            "name": "weapon",
             "rolls": 1,
             "entries": [
                 {
@@ -79,45 +93,18 @@
                     "name": "fallenst:swordofthesun",
                     "functions": [
                         {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "fire_aspect"
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "random_chance",
-                                    "chance": 1
-                                }
-                            ]
-                        },
-                        {
                             "function": "set_damage",
                             "damage": {
                                 "min": 0.01,
                                 "max": 0.1
                             }
-                        },
-                        {
-                            "function": "set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.attackDamage",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": 10,
-                                        "max": 20
-                                    },
-                                    "name": "damage",
-                                    "slot": "mainhand"
-                                }
-                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "SunTempleRecord",
+            "name": "record",
             "rolls": 1,
             "entries": [
                 {
