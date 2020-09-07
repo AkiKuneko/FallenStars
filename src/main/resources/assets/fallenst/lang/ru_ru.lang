@@ -1,0 +1,65 @@
+tile.sunore.name=Солнечная руды
+tile.skytable.name=Небесный стол
+tile.starore.name=Звёздная руда
+tile.sunfragmentblock.name=Блок фрагмента солнца
+tile.starfragmentblock.name=Блок фрагмента звезды
+tile.startable.name=Звёздный стол
+tile.moonfragmentblock.name=Блок фрагмента луны
+tile.moonstone.name=Лунный камень
+tile.moonstonebrick.name=Кирпич из лунного камня
+tile.sunstone.name=Солнечный камень
+tile.sunstonebrick.name=Кирпич из солнечного камня
+tile.starinfusedobsidian.name=Опсидиан провитонный звёздами
+
+item.sunfragment.name=Солнечный фрагмент
+item.blockelement.name=Элементальный Блок
+item.starfragment.name=Фрагмент звезды
+item.sunglasseshelmet.name=Солнечное стекло
+item.starfragmentingot.name=Звёздный слиток
+item.suningot.name=Солнечный слиток
+item.starcomponent.name=Компонет Звезды
+item.solarcomponent.name=Солнечный компонент
+item.mooncomponent.name=Компонет Луны
+item.starwand1.name=Звёздная палачка
+item.moonfragment.name= Дунный фрагмент
+item.mooningot.name=Лунный метал
+item.starinfusediron.name=Железный слиток промитаный звёздами
+
+item.starhoe.name=Мотыга пропитаная звёздами
+item.staraxe.name=Топор пропитаный звёздами
+item.starpickaxe.name=Кирка пропитаная звёздами
+item.starshovel.name=Лопата пропитаная звёздами
+item.starsword.name=Меч пропитаный звёздами
+
+item.moonstaff.name=Лунный посох
+item.itemlunarbow.name=Лунный лук
+item.moonpickaxe.name=Лунная кирка
+item.moonaxe.name=Лунный топор
+item.moonshovel.name=Лунная лопата
+item.moonhoe.name=Лунная мотыга
+item.moonhelmet.name=Лунный шлем
+item.moonchestpice.name=Лунный нагрудник
+item.moonleggings.name=Лунный поножи
+item.moonboots.name=Лунная обувь
+
+item.swordofthesun.name=Солнечный меч
+item.sunsteelsword.name=Солнечный меч
+item.sunpickaxe.name=Сонечная кирка
+item.sunaxe.name=Солнечный Топор
+item.sunshovel.name=Солнечная Лопата
+item.sunhoe.name=Солнечная Мотыга
+item.sunhelmet.name=Солнечный Шлем
+item.sunchestpice.name=Солнечный Нагрудник
+item.sunleggings.name=Солнечные Паножи
+item.sunboots.name=Солнечная Обувь
+
+item.thedevilspiano_record.name=Солнечная Плвстинка
+item.record.sundisc.desc=Фортепиано дьявола - Audio Hertz
+item.moonlightsonata_record.name=Пластинка Луны
+item.record.moondisc.desc=Лунная Соната - Битховен
+
+itemGroup.tabfallenstars=Упавшая звезда
+
+entity.starskipper.name=Звёздный Шкипер
+entity.moonharvester.name=ЛунныйХарвес
+entity.solarinvader.name=Солнечный Инвайдер
