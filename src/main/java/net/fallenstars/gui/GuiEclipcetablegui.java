@@ -242,7 +242,7 @@ public class GuiEclipcetablegui extends ElementsFallenStars.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/eclipcetablegui.png");
+		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/gui/eclipcetablegui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();

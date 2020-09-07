@@ -241,7 +241,7 @@ public class GuiSkytablegui extends ElementsFallenStars.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/skytablegui.png");
+		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/gui/skytablegui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();

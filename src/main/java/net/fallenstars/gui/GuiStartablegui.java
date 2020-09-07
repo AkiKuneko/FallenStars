@@ -241,7 +241,7 @@ public class GuiStartablegui extends ElementsFallenStars.ModElement {
 			this.xSize = 176;
 			this.ySize = 176;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/startablegui.png");
+		private static final ResourceLocation texture = new ResourceLocation("fallenst:textures/gui/startablegui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
