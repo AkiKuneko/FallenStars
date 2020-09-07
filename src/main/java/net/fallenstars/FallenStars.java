@@ -27,7 +27,7 @@ import java.util.function.Supplier;
 @Mod(modid = FallenStars.MODID, version = FallenStars.VERSION)
 public class FallenStars {
 	public static final String MODID = "fallenst";
-	public static final String VERSION = "0.0.1";
+	public static final String VERSION = "0.0.2";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("fallenst:a");
 	public static final int ENTITY_STARSK = 120;
 	public static final int ENTITY_MOONHVS = 121;
