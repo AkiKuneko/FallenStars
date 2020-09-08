@@ -38,8 +38,8 @@ item.moonaxe.name=Lunar Axe
 item.moonshovel.name=Lunar Shovel
 item.moonhoe.name=Lunar Hoe
 item.moonhelmet.name=Lunar Helmet
-item.moonchestpice.name=Lunar Chestpice
-item.moonleggings.name=Lunar leggings
+item.moonchestpice.name=Lunar Chestplate
+item.moonleggings.name=Lunar Leggings
 item.moonboots.name=Lunar Boots
 
 item.swordofthesun.name=Sword of the Sun
@@ -49,8 +49,8 @@ item.sunaxe.name=Solar Axe
 item.sunshovel.name=Solar Shovel
 item.sunhoe.name=Solar Hoe
 item.sunhelmet.name=Solar Helmet
-item.sunchestpice.name=Solar Chestpice
-item.sunleggings.name=Solar leggings
+item.sunchestpice.name=Solar Chestplate
+item.sunleggings.name=Solar Leggings
 item.sunboots.name=Solar Boots
 
 item.thedevilspiano_record.name=Sun Disc
