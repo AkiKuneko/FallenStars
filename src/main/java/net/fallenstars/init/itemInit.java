@@ -33,12 +33,13 @@ public class itemInit
     public static final ToolMaterial TOOL_SUN = EnumHelper.addToolMaterial("tool_sun",5,2000,9.0f,3.5f,19);
     public static final ToolMaterial TOOL_MOON = EnumHelper.addToolMaterial("tool_moon",5,2000,9.0f,3.5f,19);
     public static final ToolMaterial TOOL_STAR = EnumHelper.addToolMaterial("tool_moon",3,750,5.0f,3.5f,19);
+
     //Armor Mats
     public static final ArmorMaterial ARMOR_SUN = EnumHelper.addArmorMaterial("armor_sun", FallenStars.MODID + ":sun" ,100, new int[]{5,7,10,5},19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
     public static final ArmorMaterial ARMOR_MOON = EnumHelper.addArmorMaterial("armor_moon", FallenStars.MODID + ":moon" ,50, new int[]{8,14,16,10},19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 
+    //Disc's
     public static final ItemRecord thedevilspiano_record = new ItemFallenstRecords("sundisc", musicInit.thedevilspiano,"thedevilspiano_record","itemthedevilspianorecord");
-
     public static final ItemRecord moonlightsonata_record = new ItemFallenstRecords("moondisc", musicInit.moonlightsonata,"moonlightsonata_record","itemmoonlightsonatarecord");
 
     //Star Items
