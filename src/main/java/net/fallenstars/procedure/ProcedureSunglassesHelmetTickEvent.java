@@ -20,6 +20,6 @@ public class ProcedureSunglassesHelmetTickEvent extends ElementsFallenStars.ModE
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, (int) 225, (int) 0));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION,225, 0));
 	}
 }
